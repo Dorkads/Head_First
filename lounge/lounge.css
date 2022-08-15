@@ -1,0 +1,37 @@
+#guarantee {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #a7cece;
+    padding: 25px;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.9em;
+    color: #444;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left: 80px;
+    margin-right: 250px;
+    border-style: dashed;
+    border-color: white;
+    }
+
+@media screen and (min-device-width: 481px) {
+        #guarantee {
+        margin-right: 250px;
+        }
+        }
+        @media screen and (max-device-width: 480px) {
+        #guarantee {
+        margin-right: 30px;
+        }
+        }
+        @media print {
+        body {
+        font-family: Times, "Times New Roman", serif;
+        }
+        }
+        p.specials {
+        color: red;
+        }
